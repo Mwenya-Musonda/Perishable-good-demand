@@ -19,11 +19,13 @@ from sklearn.metrics import (
 # =====================================
 # STEP 1: LOAD DATA
 # =====================================
-product_detail = pd.read_csv("/workspaces/Perishable-good-demand/Data/product_details.csv")
-store_info = pd.read_csv("/workspaces/Perishable-good-demand/Data/store_info.csv")
-supplier_info = pd.read_csv("/workspaces/Perishable-good-demand/Data/supplier_info.csv")
-weather_data = pd.read_csv("/workspaces/Perishable-good-demand/Data/weather_data.csv")
-weekly_sales = pd.read_csv("/workspaces/Perishable-good-demand/Data/weekly_sales.csv")
+product_detail = pd.read_csv("Data\product_details.csv")
+store_info = pd.read_csv("Data\store_info.csv")
+supplier_info = pd.read_csv("Data\supplier_info.csv")
+weather_data = pd.read_csv("Data\weather_data.csv")
+weekly_sales = pd.read_csv("Data\weekly_sales.csv")
+
+
 
 # =====================================
 # STEP 2: EDA FUNCTION
